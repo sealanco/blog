@@ -27,6 +27,7 @@ html_theme_options = {
 extensions = [
     'myst_nb',             # Replaces both myst_parser and plot_directive
     'sphinx.ext.mathjax',
+    "jupyterlite_sphinx",
 ]
 
 templates_path = ['_templates']

@@ -4,3 +4,6 @@ myst-nb
 sphinxawesome-theme
 matplotlib
 seaborn
+jupyterlite-pyodide-kernel
+jupyterlite-sphinx
+sphinx-copybutton

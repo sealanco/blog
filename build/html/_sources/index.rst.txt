@@ -15,5 +15,6 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   posts/guide
-   posts/plots
+   posts/welcome
+   posts/class01
+   posts/repl
