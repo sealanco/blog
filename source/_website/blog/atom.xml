@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://sealanco.github.io/blog/</id>
+  <title>Maths for Python</title>
+  <updated>2026-11-02T13:23:07.501060+00:00</updated>
+  <link href="https://sealanco.github.io/blog/"/>
+  <link href="https://sealanco.github.io/blog/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
+  <entry>
+    <id>https://sealanco.github.io/blog/posts/hello/</id>
+    <title>Hello World</title>
+    <updated>2026-01-01T00:00:00+00:00</updated>
+    <author>
+      <name>YourName</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;A post body with a fenced code block, used by the copy-button E2E tests.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="https://sealanco.github.io/blog/posts/hello/"/>
+    <summary>A post body with a fenced code block, used by the copy-button E2E tests.</summary>
+    <category term="alpha" label="alpha"/>
+    <category term="beta" label="beta"/>
+    <published>2026-01-01T00:00:00+00:00</published>
+  </entry>
+</feed>
