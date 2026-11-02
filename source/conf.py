@@ -14,6 +14,9 @@ author = 'Sérgio A. A. Coutinho'
 html_title = "Maths for Python"
 html_short_title = "Maths for Python"
 
+# Set this to your actual GitHub Pages URL (including the repository subpath)
+html_baseurl = "https://sealanco.github.io/blog/"
+
 html_theme_options = {
 #    "logo_name": True,  # Uses your exact html_title instead of default branding logic
 }
