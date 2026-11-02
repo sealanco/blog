@@ -3,3 +3,4 @@ sphinx-rtd-theme
 myst-nb
 sphinxawesome-theme
 matplotlib
+seaborn
