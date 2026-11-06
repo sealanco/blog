@@ -15,6 +15,4 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   posts/welcome
-   posts/class01
-   posts/repl
+   pages/maths-class01

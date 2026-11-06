@@ -25,9 +25,10 @@ html_theme_options = {
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'myst_nb',             # Replaces both myst_parser and plot_directive
+    'myst_parser',
     'sphinx.ext.mathjax',
-    "jupyterlite_sphinx",
+    # "sphinx_copybutton",
+    "matplotlib.sphinxext.plot_directive",
 ]
 
 templates_path = ['_templates']
@@ -69,3 +70,14 @@ myst_enable_extensions = [
 # Optional: suppress execution warnings if desired
 nb_execution_mode = "force"
 
+pygments_style = "default"  # or "sphinx", "friendly", "monokai"
+
+plot_pre_code = """
+import matplotlib.pyplot as plt
+plt.style.use('dark_background')
+"""
+
+plot_rcparams = {
+    "figure.facecolor": "none",
+    "axes.facecolor": "none",
+}
