@@ -142,214 +142,110 @@ else:
 
 Exercise 00007 - Picture:\
 D. Draw a smile below the nose and eyebrows above the eyes.
-![](../exercises/ex00007.png)
+![Draw a smile and eyebrows](../exercises/ex00007.png)
 
-5
+## Page 6
+Exercise 00008 - Python Code:\
+E. Look at our National Flag which is also known as tiranga.
 
-Reprint 2026-27
-Chapter 1.indd 5
+Tick the correct option.
+```python
+#!/usr/bin/env python3
 
-24-05-2023 17:15:48
+from rich.prompt import Prompt
+from rich.prompt import IntPrompt
 
-E. Look at our National Flag which is also known as
-tiranga. How many colours are there?
-Tick
+answer = Prompt.ask("i. Which colour is at the [bold]top[/bold] of the tiranga? [bold]white/saffron/green[/bold]")
+loweranswer = answer.lower()
+if loweranswer == "saffron":
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
 
-ü
+answer2 = Prompt.ask("ii. Which colour is [bold]below[/bold] the white colour on the tiranga? [bold]pink/saffron/green[/bold]")
+loweranswer2 = answer2.lower()
+if loweranswer2 == "green":
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
 
-the correct option.
+answer3 = Prompt.ask("iii. Which colour is [bold]above[/bold] the green colour on the tiranga? [bold]white/saffron/yellow[/bold]")
+loweranswer3 = answer3.lower()
+if loweranswer3 == "white":
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
 
-i. Which colour is at the top of the tiranga?
-		
-white/saffron/green
-ii. Which colour is below the white colour on the tiranga?
-		
-pink/saffron/green
-iii. Which colour is above the green colour on the tiranga?
-		
-white/saffron/yellow
-iv. Where is the ashoka chakra on the tiranga?
-		
-on a corner/in the middle/on a side
+answer4 = Prompt.ask("iv. Where is the ashoka chakra on the tiranga? [bold]on a corner/in the middle/on a side[/bold]")
+loweranswer4 = answer4.lower()
+if loweranswer4 == "in the middle":
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
 
-Discuss with children when, where and why do we hoist the
-National Flag. Let the children express their feelings about the
-National celebrations. Ask children to make their own tiranga and
-sing the National Anthem in standing position facing the tiranga.
+answer5 = IntPrompt.ask("v. How many colours are there?")
+if answer5 == 4:
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
+```
 
-6
+## Page 7
+Exercise 00009 - Python Code:
+```python
+#!/usr/bin/env python
 
-Reprint 2026-27
-Chapter 1.indd 6
+from rich.prompt import IntPrompt
 
-24-05-2023 17:15:49
+answer = IntPrompt.ask("A. How many bogies are there [bold]after[/bold] engine?")
+if answer == 5:
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
 
-Chhuk Chhuk goes our Train!
-Chhuk chhuk! Chhuk chhuk!
-Goes our train.
-Over the hills and down to the plains.
-Chhuk chhuk! Chhuk chhuk!
-Goes our train.
-Bogies before my bogie,
-Bogies after my bogie,
-Make a chain,
-Over the rivers and in the rain.
-Chhuk chhuk! Chhuk chhuk!
-Goes our train.
+answer2 = IntPrompt.ask("B. How many bogies are there [bold]before[/bold] the red bogie?")
+if answer2 == 2:
+    print("The answer is right.\n")
+else:
+    print("The answer is wrong.\n")
+```
 
-A. How many bogies are there after engine?
-B. How many bogies are there before the red bogie?
+Exercise 00010 - Picture:\
 C. Fill the orange colour in the bogies after the red bogie.
+![Orange bogies](../exercises/ex00010.png)
+
+Exercise 00011 - Picture:\
 D. Fill the blue colour in the bogies before the red bogie.
-Ask children to share experiences of their train journey. Children who
-have never travelled by train may ask questions about the
-journey. Let there be a discussion on ‘what a train is’. Ask
-them to draw a train on the paper or they can make a train by
-using waste materials like used boxes or cans.
+![Blue bogies](../exercises/ex00011.png)
 
-7
-
-Reprint 2026-27
-Chapter 1.indd 7
-
-24-05-2023 17:15:52
-
-Let us Play
-Children will sing the rhyme and play
-a game where they all will form a train
-by holding each other’s shoulders.
-Everyone will tell who is before and
-after each child in the train.
-Here goes our train,
-Here goes our train
-No one is before me
-and Meera is after me
-
-Suwali and Rohit are making some groups of objects.
-I have put all the leaves in
-one group and chalk pieces
-in another group.
-
-I have put all the
-pebbles together.
-
-8
-
-Let the children do similar activities of sorting the objects like
-seeds, leaves, beads, etc.
-
-Reprint 2026-27
-Chapter 1.indd 8
-
-24-05-2023 17:15:56
-
-Let us Do
+## Page 9
+Exercise 00012 - Text:\
 Suwali has placed all the buttons in three groups.
-
 Why did Suwali make such groups?
-Help Suwali to sort these buttons in other ways by
-drawing them.
+```text
+Answer: To sort them by colour.
+```
 
-Project Work
-Ask children to arrange the cupboard of the classroom. Ask them to put
-objects using positional vocabulary like put two objects in the bottom
-rack, one object in the top rack, etc.
+Exercise 00013 - Picture:\
+Help Suwali to sort these buttons in other ways by drawing them.
+![Sorted buttons by shape](../exercises/ex00013.png)
 
-9
+## Page 11
+Exercise 00014 - Markdown with Inline SVG Code:
+```svg
+A. Draw round objects in <svg width="24" height="24" style="vertical-align: middle;"><circle cx="12" cy="12" r="11" stroke="white" stroke-width="1" /></svg> and long objects in <svg width="36" height="24" style="vertical-align: middle;"><rect x="1" y="1" width="34" height="22" rx="2" stroke="white" stroke-width="1" /></svg> .
+```
 
-Reprint 2026-27
-Chapter 1.indd 9
+A. Draw round objects in <svg width="24" height="24" style="vertical-align: middle;"><circle cx="12" cy="12" r="11" stroke="white" stroke-width="1" /></svg> and long objects in <svg width="36" height="24" style="vertical-align: middle;"><rect x="1" y="1" width="34" height="22" rx="2" stroke="white" stroke-width="1" /></svg> .
 
-24-05-2023 17:15:57
+Exercise 00015 - Picture:
+![Round and long objects](../exercises/ex00015.png)
 
-2
-
-What is Long?
-What is Round?
-Look Around
-
-Vidya didi asked all the children to sit in a circle.
-
-My pencil box
-is long and my
-ball is round.
-Look around,
-look around.
-
-What is long?
-What is round?
-Look around,
-look around.
-
-My legs are long and
-my face is round. Look
-around, look around.
-Ask children to play this game in the class. Let the children name two things  —
-one long and one round. Every time, they can take the name of a new thing
-and avoid repetition. For long objects, children may focus on one
-dimension like tall, wide, etc. For example, some may say a tumbler
-is long whereas for some others, it may be round. Both views need
-to be considered. Let children explain their logic of saying so.
-
-Reprint 2026-27
-Chapter 2.indd 10
-
-13-12-2024 15:00:33
-
-Think and Do
-A. Draw round objects in
-
-and long objects in
-
-.
-
-11
-
-Reprint 2026-27
-Chapter 2.indd 11
-
-25-05-2023 11:54:04
-
-B. Match the objects which are similar in shape.
-
-C. Tick
-
-ü
-
-the shape which is similar to ball
-
-.
-
-12
-
-Reprint 2026-27
-Chapter 2.indd 12
-
-25-05-2023 11:54:06
-
-D. Tick
-
-ü
-
-the shape which is similar to cap
-
-.
-
-E. Tick
-
-ü
-
-the shape which is similar to glass
-
-.
-
-F. Tick
-
-ü
-
-the shape which is similar to matchbox
-
-.
+B. Match the objects which are similar in shape.
+C. Tick the shape which is similar to ball.
+D. Tick the shape which is similar to cap.
+E. Tick the shape which is similar to glass.
+F. Tick the shape which is similar to matchbox.
 
 Let us Do
 Make a house, toy, tower, robot, bus or anything you like
@@ -4186,3 +4082,10 @@ Exercise 0003 - Matplotlib Code:
 
 ```
 
+```svg
+A. Draw round objects in <svg width="24" height="24" style="vertical-align: middle;"><circle cx="12" cy="12" r="11" stroke="white" stroke-width="2" /></svg> and long objects in <svg width="36" height="24" style="vertical-align: middle;"><rect x="1" y="1" width="34" height="22" rx="2" stroke="white" stroke-width="2" /></svg> .
+
+Here is a larger blue square with a white border <svg width="24" height="24" style="vertical-align: middle;"><rect x="1" y="1" width="22" height="22" rx="2" fill="blue" stroke="white" stroke-width="2" /></svg> inline in your text.
+
+Here is a blue rectangle with a white border <svg width="36" height="24" style="vertical-align: middle;"><rect x="1" y="1" width="34" height="22" rx="2" stroke="white" stroke-width="2" /></svg> inline in your text.
+```
