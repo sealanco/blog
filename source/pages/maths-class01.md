@@ -139,41 +139,10 @@ if loweranswer2 == "on":
 else:
     print("The answer is wrong.\n")
 ```
-Let us Do
-A. Tick
 
-ü
-
-the things which are inside.
-
-Activity should be conducted in a manner so that all the children are
-engaged, irrespective of their differential abilities. For example, a
-ghungroo can be attached to the ball, and surface of the basket
-can be made different from the surface outside in order to get
-specific sound when the ball is in or out of the basket.
-
-4
-
-Reprint 2026-27
-Chapter 1.indd 4
-
-24-05-2023 17:15:46
-
-B. Tick
-
-ü
-
-the things which are outside.
-
-C. Look at the picture and tick
-
-ü
-
-the correct words.
-
-
-
+Exercise 00007 - Picture:\
 D. Draw a smile below the nose and eyebrows above the eyes.
+![](../exercises/ex00007.png)
 
 5
 
