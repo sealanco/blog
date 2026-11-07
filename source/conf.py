@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Maths for Python'
-copyright = '2026, Sérgio A. A. Coutinho'
+copyright = '2026, Sérgio A. A. Coutinho (GNU GPLv3)'
 author = 'Sérgio A. A. Coutinho'
 
 # Set the exact HTML title without the "documentation" suffix
